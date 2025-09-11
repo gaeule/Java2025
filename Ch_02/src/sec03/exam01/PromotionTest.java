@@ -15,8 +15,8 @@ public class PromotionTest {
 		
 		byte byteVall = 65;
 		int intVal2 = 65;
-		char charVal2 = byteVall;
-		char charVal3 = intVal2; 
+		char charVal2 = (char)byteVall;
+		char charVal3 = (char)intVal2; 
 	}
 
 }
